@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #ec6313;
+  color: #ddd2d2;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  background: #f8f5f5;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  background: #f78113;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.message form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message label {
+  font-weight: bold;
+}
+
+.message input,
+.message textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddcf0c;
+  font-size: 16px;
+}
+
+.message button {
+  background: #ec190a;
+  color: rgb(241, 219, 219);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message button:hover {
+  background: #ee192b;
+}
